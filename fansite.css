@@ -1,0 +1,207 @@
+
+/* config principal */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20em;
+
+}
+
+p{
+    color: rgba(174, 82, 1, 0.889);
+    font-style: oblique;
+    padding: 0.8%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p2{
+    color: rgba(234, 0, 0, 0.979);
+    font-style: oblique;
+    padding: 0.8%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p3{
+    color:coral;
+    font-style: oblique;
+    padding: 0.8%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p4{
+    color: rgb(110, 1, 110);
+    font-style: oblique;
+    padding: 0.8%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titreh1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(255, 0, 0, 0.823);
+    font-style: oblique;
+    padding: 0.8%;
+    text-decoration: underline;
+}
+
+h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(146, 68, 0, 0.889);
+    font-style: oblique;
+    padding: 0.8%;
+}
+
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(18, 1, 255, 0.601);
+    font-style: oblique;
+    padding: 0.2%;
+    text-decoration: underline;
+}
+
+.suh{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(120, 255, 1, 0.808);
+    font-style: oblique;
+    padding: 0.2%;
+    text-decoration: underline;
+}
+
+.eventh{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    padding: 0.2%;
+    text-decoration: underline;
+    color: rgb(255, 0, 187);
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    display: flex;
+    margin-right: 15px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 1.5em;
+    background-color:rgb(44, 187, 0);
+}
+
+.navbar a:hover{
+    color: rgb(144, 1, 173);
+    background-color:rgb(221, 255, 0);
+    transition: 0.5s;
+}
+
+.navbar2 ul {
+    display: flex;
+}
+
+.navbar2 li {
+    list-style: none;
+    display: flex;
+    margin-right: 15px;
+}
+
+.navbar2 a {
+    color: white;
+    font-size: 1.5em;
+    background-color:rgba(2, 160, 199, 0.915);
+}
+
+.navbar2 a:hover{
+    color: rgb(144, 1, 173);
+    background-color:rgb(221, 255, 0);
+    transition: 0.5s;
+}
+
+
+.navbar3 ul {
+    display: flex;
+}
+
+.navbar3 li {
+    list-style: none;
+    display: flex;
+    margin-right: 15px;
+}
+
+.navbar3 a {
+    color: white;
+    font-size: 1.5em;
+    background-color:rgba(1, 135, 238);
+}
+
+.navbar3 a:hover{
+    color: rgb(144, 1, 173);
+    background-color:rgb(221, 255, 0);
+    transition: 0.5s;
+}
+
+main{
+    background: linear-gradient(0deg, rgba(28, 119, 0, 0.666) 40%, rgb(44, 187, 0) 60%);
+}
+
+.main2{
+    background: linear-gradient(0deg, rgba(119, 48, 0, 0.666) 40%, rgb(44, 187, 0) 60%);
+}
+
+.main3{
+    background: linear-gradient(0deg, rgb(1, 135, 238) 40%, rgba(0, 146, 182, 0.915) 60%);
+}
+
+.main4{
+    background: linear-gradient(0deg, rgb(175, 1, 238) 40%, rgba(1, 135, 238) 60%);
+}
+
+.imgdemo{
+    width: 280px;
+    height: 260px;
+}
+
+.imgtxt{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 6vh;
+    padding: 2vh;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.txtimg{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 2vh;
+    margin: 6vh;
+    font-size: 22px;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.div2{
+    display: flex;
+}
+
+.div1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Bas de page */
+.icons{
+    width: 80px;
+    height: 80px;
+    padding:1.5em;
+}
